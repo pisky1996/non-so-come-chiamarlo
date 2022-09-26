@@ -1,0 +1,80 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header > img{
+    width: 25%;
+    margin-top: 10%;
+}
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    }
+.trasparent-box{
+    height: 80%;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.60);
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 25px;
+}
+button{
+    font-size: 10px;
+}
+header{
+    color: limegreen;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+nav{
+    width: 80%;
+    background-color: limegreen;
+    margin: auto;
+    padding: 6px;
+    text-align: center;
+    margin-bottom: 5px ;
+}
+main{
+    color: white;
+    margin-left: 10%;
+    padding-bottom: 10%;
+}
+.name-person{
+    font-size: 20px;
+}
+input{
+    width: 10px;
+    height: 10px;
+}
+.position, .status{
+    color: lightgray;
+}
+#first-bar{
+    height: 20px;
+    width: 30%;
+    background-color: rgb(235, 175, 65);
+    border-radius: 5px;
+}
+section{
+    margin-top: 20px;
+}
+section > div{
+    font-size: 15px;
+}
+#second-bar{
+    height: 20px;
+    width: 60%;
+    background-color:rgb(32, 177, 32);
+    border-radius: 5px;
+}
+#third-bar{
+    height: 20px;
+    width: 15%;
+    background-color: rgb(136, 35, 35);
+    border-radius: 5px;
+
+}
